@@ -1,0 +1,69 @@
+h1{
+    font-family: "Pacifico", cursive;;
+    font-size: 50px;
+    color: #352e28;
+    position: relative;
+    
+    
+
+}
+h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 0;
+    background-color: #fec260;
+    transition: height 350ms;
+    z-index: -1;
+    
+}
+
+h1:hover::after{
+    height: 70%;;
+}
+
+
+
+h2{
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c,#b5ac49);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+
+body{
+    background-color: #F7ECDE;
+}
+#inputAll button{
+    background-color:#d1512d;
+}
+#inputAll button:hover {
+    background-color:#a03315;
+   
+}
+
+#button-table-one{
+    background-color: #eb1d36;
+
+}
+#button-table-one:hover{
+    background-color: #d30820;
+}
+#button-table-two{
+    background-color: #9eb23b;;
+}
+#button-table-two:hover{
+    background-color: #8a9e23;;
+}
+
+
+#border-line{
+    border: dashed black 1px;
+}
+.border-line-one{
+    width: 90%;
+}
+
